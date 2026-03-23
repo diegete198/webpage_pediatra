@@ -27,7 +27,7 @@ export default function Hero() {
             {/* Texto hero */}
             <div style={{ flex: '1', minWidth: '300px', padding: '20px 30px', animation: 'fadeInUp 1.2s ease-out', position: 'relative', zIndex: 1 }}>
                 <div style={{ display: 'inline-block', backgroundColor: 'rgba(142,68,173,0.25)', border: '1px solid rgba(165,105,189,0.5)', borderRadius: '20px', padding: '6px 16px', marginBottom: '20px', fontSize: '0.85rem', color: '#E8DAEF', letterSpacing: '1px', fontWeight: 600 }}>
-                    🌌 PEDIATRÍA NEONATAL · TIJUANA
+                    🌌 PEDIATRA NEONATOLOGA · TIJUANA
                 </div>
 
                 <h1 style={{ color: '#FFFFFF', fontSize: '3.2rem', margin: '0 0 15px 0', lineHeight: '1.15', fontWeight: 800 }}>

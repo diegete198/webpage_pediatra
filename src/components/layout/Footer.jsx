@@ -31,7 +31,7 @@ export default function Footer() {
                 🚀 Dra. Cristina Pacheco
             </div>
             <p style={{ margin: '0 0 6px 0', color: '#A569BD', fontWeight: 600, fontSize: '1rem' }}>
-                Pediatría Neonatal · Tijuana, B.C.
+                Pediatra Neonatologa · Tijuana, B.C.
             </p>
             <p style={{ margin: '0 0 25px 0', fontStyle: 'italic', color: '#C39BD3', fontSize: '0.95rem' }}>
                 Guiando a tu pequeño astronauta en su viaje más importante.
