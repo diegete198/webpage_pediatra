@@ -239,15 +239,6 @@
   box-shadow: 0 20px 40px rgba(142, 68, 173, 0.2);
 }
 
-/* ── ONDA SEPARADORA ── */
-.wave-divider {
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  margin-bottom: -1px;
-}
-.wave-divider svg { display: block; }
-
 /* ── SOCIAL PLANETS ── */
 .social-planet {
   display: inline-flex;
@@ -306,25 +297,15 @@
   box-shadow: 0 6px 22px rgba(10, 102, 194, 0.5);
 }
 
-/* Hover */
+/* Hover planetas */
 .social-planet:hover .planet-orb {
   transform: translateY(-6px) scale(1.12);
 }
-.planet-instagram:hover .planet-orb {
-  box-shadow: 0 14px 35px rgba(238, 42, 123, 0.65);
-}
-.planet-facebook:hover .planet-orb {
-  box-shadow: 0 14px 35px rgba(21, 101, 192, 0.7);
-}
-.planet-linkedin:hover .planet-orb {
-  box-shadow: 0 14px 35px rgba(10, 102, 194, 0.7);
-}
-.social-planet:hover .planet-orb::before {
-  border-color: rgba(255, 255, 255, 0.45);
-}
-.social-planet:hover .planet-label {
-  color: #F7DC6F;
-}
+.planet-instagram:hover .planet-orb { box-shadow: 0 14px 35px rgba(238, 42, 123, 0.65); }
+.planet-facebook:hover .planet-orb  { box-shadow: 0 14px 35px rgba(21, 101, 192, 0.7); }
+.planet-linkedin:hover .planet-orb  { box-shadow: 0 14px 35px rgba(10, 102, 194, 0.7); }
+.social-planet:hover .planet-orb::before { border-color: rgba(255, 255, 255, 0.45); }
+.social-planet:hover .planet-label { color: #F7DC6F; }
 
 /* ── BOTÓN PRINCIPAL ── */
 .btn-primary {
@@ -362,11 +343,7 @@
 
   .doctor-photo { width: 240px; height: 240px; }
   .orbit-ring   { width: 270px; height: 270px; }
-
-  .orbit-ring::before {
-    inset: -15px;
-  }
-
+  .orbit-ring::before { inset: -15px; }
   .trust-bar { gap: 30px; padding: 30px 10%; }
 
   .orbit-planet {
