@@ -11,7 +11,7 @@ function App() {
             Protegiendo el <span style={{ color: '#A569BD' }}>despegue</span> de tu bebé
           </h1>
           <p style={{ fontSize: '1.2rem', marginBottom: '30px', color: '#555' }}>
-            Dra. Dolly, Pediatra Neonatóloga. Cuidado especializado, cálido y experto para recién nacidos y bebés prematuros.
+            Dra. Cristina Pacheo, Pediatra Neonatóloga. Cuidado especializado, cálido y experto para recién nacidos y bebés prematuros.
           </p>
           <a href="https://wa.me/525500000000" target="_blank" rel="noreferrer" style={btnStyle}>
              Agendar Cita en WhatsApp 🚀
@@ -34,7 +34,7 @@ function App() {
 
       {/* 3. SOBRE MÍ */}
       <section style={{ padding: '80px 5%', textAlign: 'center' }}>
-        <h2 style={{ color: '#4A235A', fontSize: '2.5rem' }}>Conoce a la Dra. Dolly</h2>
+        <h2 style={{ color: '#4A235A', fontSize: '2.5rem' }}>Conoce a la Dra. Cristina Pacheco</h2>
         <p style={{ maxWidth: '800px', margin: '20px auto', fontSize: '1.1rem', lineHeight: '1.6' }}>
           Soy una apasionada por el inicio de la vida. Mi misión es ser el "centro de control" que asegure que cada pequeño astronauta tenga las mejores herramientas para crecer sano y fuerte. Te acompaño a ti y a tu bebé con empatía, ciencia y mucho corazón.
         </p>
