@@ -228,7 +228,7 @@ function App() {
             </section>
 
             {/* BOTÓN FLOTANTE DE WHATSAPP */}
-            <a href="https://wa.me/525500000000" target="_blank" rel="noreferrer" style={{ position: 'fixed', bottom: '30px', right: '30px', backgroundColor: '#25D366', color: 'white', padding: '15px 25px', borderRadius: '50px', fontWeight: 'bold', textDecoration: 'none', boxShadow: '0 6px 15px rgba(37, 211, 102, 0.4)', zIndex: 1000, transition: 'transform 0.3s ease' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+            <a href="https://wa.me/523349421060" target="_blank" rel="noreferrer" style={{ position: 'fixed', bottom: '30px', right: '30px', backgroundColor: '#25D366', color: 'white', padding: '15px 25px', borderRadius: '50px', fontWeight: 'bold', textDecoration: 'none', boxShadow: '0 6px 15px rgba(37, 211, 102, 0.4)', zIndex: 1000, transition: 'transform 0.3s ease' }} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
                 💬 Escríbeme
             </a>
 
