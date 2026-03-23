@@ -1,4 +1,4 @@
-import { FaWhatsapp } from 'react-icons/fa';
+import { SiWhatsapp } from 'react-icons/si';
 import { WA } from '@/constants/data';
 
 const MAP_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.51268482451!2d-117.01736632368943!3d32.51243169742457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948386b0dae71%3A0xc3bba30a84eef26b!2sTorre%20Torela!5e0!3m2!1ses-419!2smx!4v1711219600000!5m2!1ses-419!2smx';
@@ -26,8 +26,8 @@ export default function Contact() {
                         </p>
                         <p style={{ margin: 0 }}>
                             <strong style={{ color: '#4A235A' }}>🕒 Horarios:</strong><br />
-                            Lunes–Viernes: 9:00–14:00 y 16:00–19:00<br />
-                            Sábados: 9:00–13:00
+                            Lunes–Viernes: 9:00–12:00<br />
+                            Sábados: 10:00–18:00
                         </p>
                         <p style={{ margin: 0 }}>
                             <strong style={{ color: '#4A235A' }}>📞 Teléfono:</strong><br />
@@ -35,7 +35,7 @@ export default function Contact() {
                         </p>
                     </div>
                     <a href={WA} target="_blank" rel="noreferrer" className="btn-primary" style={{ marginTop: '28px', display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '13px 28px', fontSize: '1rem' }}>
-                        <FaWhatsapp /> Escribir por WhatsApp
+                        <SiWhatsapp /> Escribir por WhatsApp
                     </a>
                 </div>
 

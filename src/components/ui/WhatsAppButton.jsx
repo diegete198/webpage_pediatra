@@ -1,4 +1,4 @@
-import { FaWhatsapp } from 'react-icons/fa';
+import { SiWhatsapp } from 'react-icons/si';
 import { WA } from '@/constants/data';
 
 export default function WhatsAppButton() {
@@ -29,7 +29,7 @@ export default function WhatsAppButton() {
             onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.08)'}
             onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
         >
-            <FaWhatsapp style={{ fontSize: '1.3rem' }} /> Escríbeme
+            <SiWhatsapp style={{ fontSize: '1.3rem' }} /> Escríbeme
         </a>
     );
 }

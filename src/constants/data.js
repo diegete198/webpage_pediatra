@@ -1,12 +1,12 @@
 export const WA = 'https://wa.me/523349421060';
 
 export const NAV_ITEMS = [
-    { label: 'Inicio',              href: '#inicio' },
-    { label: 'Sobre Mí',            href: '#sobre-mi' },
-    { label: 'Servicios',           href: '#servicios' },
-    { label: 'Artículos',           href: '#articulos-de-interes' },
-    { label: 'Costos',              href: '#costos' },
-    { label: 'Contacto',            href: '#contacto' },
+    { label: 'Inicio',     href: '/#inicio' },
+    { label: 'Sobre Mí',   href: '/#sobre-mi' },
+    { label: 'Servicios',  href: '/#servicios' },
+    { label: 'Artículos',  href: '/#articulos-de-interes' },
+    { label: 'Costos',     href: '/#costos' },
+    { label: 'Contacto',   href: '/#contacto' },
 ];
 
 // Estrellas con coordenadas determinísticas (sin Math.random en render)
@@ -38,9 +38,9 @@ export const SERVICES = [
 ];
 
 export const ARTICLES = [
-    { icon: '🍼', title: '¿Cómo saber si mi bebé toma suficiente leche?',  readTime: '3 min' },
-    { icon: '💤', title: 'El sueño del recién nacido: Mitos y realidades', readTime: '5 min' },
-    { icon: '🤒', title: 'Fiebre en los primeros 3 meses: ¿Qué hacer?',    readTime: '4 min' },
+    { icon: '🍼', title: '¿Cómo saber si mi bebé toma suficiente leche?',  readTime: '3 min', slug: 'lactancia-materna' },
+    { icon: '💤', title: 'El sueño del recién nacido: Mitos y realidades', readTime: '5 min', slug: 'sueno-recien-nacido' },
+    { icon: '🤒', title: 'Fiebre en los primeros 3 meses: ¿Qué hacer?',    readTime: '4 min', slug: 'fiebre-primeros-meses' },
 ];
 
 export const CREDENTIALS = [

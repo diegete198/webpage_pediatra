@@ -5,6 +5,15 @@
 /* ── RESET BÁSICO ── */
 *, *::before, *::after { box-sizing: border-box; }
 
+/* ── TIPOGRAFÍA TEMÁTICA ── */
+.nav-logo,
+.nav-link,
+.trust-item h3,
+.btn-primary,
+.planet-label {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
 /* ── HEADER GLASS ── */
 .glass-header {
   position: sticky;
