@@ -1,4 +1,4 @@
-import { FaWhatsapp } from 'react-icons/fa';
+import { SiWhatsapp } from 'react-icons/si';
 import fotoDoctora from '@/assets/fotoprincipal.jpeg';
 import { STARS, WA } from '@/constants/data';
 
@@ -43,7 +43,7 @@ export default function Hero() {
                 </p>
 
                 <a href={WA} target="_blank" rel="noreferrer" className="btn-primary">
-                    <FaWhatsapp style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+                    <SiWhatsapp style={{ marginRight: '8px', verticalAlign: 'middle' }} />
                     Agendar Cita por WhatsApp
                 </a>
             </div>
