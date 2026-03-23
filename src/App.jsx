@@ -332,10 +332,19 @@ export default function App() {
                 <p style={{ margin: '0 0 25px 0', fontStyle: 'italic', color: '#C39BD3', fontSize: '0.95rem' }}>
                     Guiando a tu pequeño astronauta en su viaje más importante.
                 </p>
-                <div style={{ display: 'flex', justifyContent: 'center', gap: '25px', marginBottom: '25px' }}>
-                    <a href="#" className="social-link" aria-label="Instagram"><FaInstagram /></a>
-                    <a href="#" className="social-link" aria-label="Facebook"><FaFacebook /></a>
-                    <a href="#" className="social-link" aria-label="LinkedIn"><FaLinkedin /></a>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', marginBottom: '28px', flexWrap: 'wrap' }}>
+                    <a href="https://www.instagram.com/doctora_cristina_pacheco?igsh=c2NkdTBicjU5cWgz" className="social-planet planet-instagram" aria-label="Instagram">
+                        <div className="planet-orb"><FaInstagram /></div>
+                        <span className="planet-label">🌸 Instagram</span>
+                    </a>
+                    <a href="#" className="social-planet planet-facebook" aria-label="Facebook">
+                        <div className="planet-orb"><FaFacebook /></div>
+                        <span className="planet-label">🔵 Facebook</span>
+                    </a>
+                    <a href="#" className="social-planet planet-linkedin" aria-label="LinkedIn">
+                        <div className="planet-orb"><FaLinkedin /></div>
+                        <span className="planet-label">🪐 LinkedIn</span>
+                    </a>
                 </div>
                 <p style={{ margin: 0, fontSize: '0.8rem', color: '#7D6B82' }}>
                     © {new Date().getFullYear()} Todos los derechos reservados.{' '}

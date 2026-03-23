@@ -248,18 +248,82 @@
 }
 .wave-divider svg { display: block; }
 
-/* ── SOCIAL LINKS ── */
-.social-link {
-  color: #F7DC6F;
-  font-size: 1.6rem;
-  text-decoration: none;
-  transition: all 0.3s ease;
+/* ── SOCIAL PLANETS ── */
+.social-planet {
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  position: relative;
 }
-.social-link:hover {
-  color: #FFFFFF;
-  transform: translateY(-3px) scale(1.15);
+
+.planet-orb {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Anillo estilo Saturno */
+.planet-orb::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  transform: rotateX(70deg);
+  pointer-events: none;
+  transition: border-color 0.35s ease;
+}
+
+.planet-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #C39BD3;
+  transition: color 0.3s ease;
+}
+
+/* Colores por red social */
+.planet-instagram .planet-orb {
+  background: radial-gradient(circle at 30% 30%, #f9ce34, #ee2a7b, #6228d7);
+  box-shadow: 0 6px 22px rgba(238, 42, 123, 0.45);
+}
+.planet-facebook .planet-orb {
+  background: radial-gradient(circle at 30% 30%, #42a5f5, #1565c0);
+  box-shadow: 0 6px 22px rgba(21, 101, 192, 0.5);
+}
+.planet-linkedin .planet-orb {
+  background: radial-gradient(circle at 30% 30%, #4db6ac, #0a66c2);
+  box-shadow: 0 6px 22px rgba(10, 102, 194, 0.5);
+}
+
+/* Hover */
+.social-planet:hover .planet-orb {
+  transform: translateY(-6px) scale(1.12);
+}
+.planet-instagram:hover .planet-orb {
+  box-shadow: 0 14px 35px rgba(238, 42, 123, 0.65);
+}
+.planet-facebook:hover .planet-orb {
+  box-shadow: 0 14px 35px rgba(21, 101, 192, 0.7);
+}
+.planet-linkedin:hover .planet-orb {
+  box-shadow: 0 14px 35px rgba(10, 102, 194, 0.7);
+}
+.social-planet:hover .planet-orb::before {
+  border-color: rgba(255, 255, 255, 0.45);
+}
+.social-planet:hover .planet-label {
+  color: #F7DC6F;
 }
 
 /* ── BOTÓN PRINCIPAL ── */
