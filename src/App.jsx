@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoDoctora from './assets/fotoprincipal.jpeg'
 
 function App() {
     return (
@@ -68,9 +69,23 @@ function App() {
                     </a>
                 </div>
                 <div style={{ flex: '1', minWidth: '300px', textAlign: 'center' }}>
-                    <div style={{ width: '350px', height: '350px', backgroundColor: '#E8DAEF', borderRadius: '50%', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '5rem', boxShadow: '0 20px 40px rgba(165, 105, 189, 0.15)' }}>
-                        👩‍⚕️✨
-                    </div>
+  <div style={{ flex: '1', minWidth: '300px', textAlign: 'center' }}>
+  {/* FOTOGRAFÍA REAL APLICADA */}
+  <img 
+    src={fotoDoctora} // Usamos la variable que importamos arriba
+    alt="Dra. Cristina Pacheco - Pediatra Neonatóloga"
+    style={{ 
+      width: '350px', 
+      height: '350px', 
+      borderRadius: '50%', // Mantiene el formato circular
+      objectFit: 'cover', // Asegura que la foto no se estire y se corte perfecto
+      margin: '0 auto', 
+      display: 'block',
+      boxShadow: '0 20px 40px rgba(165, 105, 189, 0.15)',
+      border: '5px solid #E8DAEF' // Un borde suave para que resalte
+    }} 
+  />
+</div>
                 </div>
             </div>
 
