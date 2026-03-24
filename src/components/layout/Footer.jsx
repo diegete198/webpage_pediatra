@@ -9,19 +9,19 @@ const SOCIAL_LINKS = [
         ariaLabel: 'Instagram',
     },
     {
-        href: '#',
+        href: 'https://www.facebook.com/share/1DcStjGQYp/',
         className: 'planet-facebook',
         icon: <FaFacebook />,
         label: '🔵 Facebook',
         ariaLabel: 'Facebook',
     },
-    {
-        href: '#',
-        className: 'planet-linkedin',
-        icon: <FaLinkedin />,
-        label: '🪐 LinkedIn',
-        ariaLabel: 'LinkedIn',
-    },
+    // {
+    //     href: '#',
+    //     className: 'planet-linkedin',
+    //     icon: <FaLinkedin />,
+    //     label: '🪐 LinkedIn',
+    //     ariaLabel: 'LinkedIn',
+    // },
 ];
 
 export default function Footer() {
